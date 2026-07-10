@@ -1,5 +1,10 @@
 # passfort
 
+[![CI](https://github.com/tommyv1987/passfort/actions/workflows/ci.yml/badge.svg)](https://github.com/tommyv1987/passfort/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@tommyvez/passfort)](https://www.npmjs.com/package/@tommyvez/passfort)
+[![npm downloads](https://img.shields.io/npm/dw/@tommyvez/passfort)](https://www.npmjs.com/package/@tommyvez/passfort)
+[![License: MIT](https://img.shields.io/npm/l/@tommyvez/passfort)](LICENSE)
+
 **Password [protection](https://www.passfort.net/) for Vercel deployments.** No $150/month required. Works on Hobby plan.
 
 Protect your entire site or specific routes behind a password with a few lines of code.
