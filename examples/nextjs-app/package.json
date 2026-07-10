@@ -10,12 +10,12 @@
   "dependencies": {
     "@tommyvez/passfort": "workspace:*",
     "next": "^16.2.10",
-    "react": "^19.0.0",
+    "react": "^19.2.7",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
-    "@types/react": "^19.0.0",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.0.0",
     "typescript": "^7.0.2"
   }
