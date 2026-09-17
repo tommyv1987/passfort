@@ -41,7 +41,7 @@ importers:
         version: 9.39.2
       next:
         specifier: ^16.1.0
-        version: 16.2.10(@playwright/test@1.61.1)(react-dom@19.2.4(react@19.2.7))(react@19.2.7)
+        version: 16.2.10(@playwright/test@1.61.1)(react-dom@19.2.4(react@19.3.0))(react@19.3.0)
       prettier:
         specifier: ^3.4.0
         version: 3.9.5
@@ -68,23 +68,23 @@ importers:
         version: link:../..
       next:
         specifier: ^16.2.10
-        version: 16.2.10(@playwright/test@1.61.1)(react-dom@19.2.4(react@19.2.7))(react@19.2.7)
+        version: 16.2.10(@playwright/test@1.61.1)(react-dom@19.2.4(react@19.3.0))(react@19.3.0)
       react:
         specifier: ^19.2.7
-        version: 19.2.7
+        version: 19.3.0
       react-dom:
         specifier: ^19.0.0
-        version: 19.2.4(react@19.2.7)
+        version: 19.2.4(react@19.3.0)
     devDependencies:
       '@types/node':
         specifier: ^26.1.1
         version: 26.1.1
       '@types/react':
         specifier: ^19.2.17
-        version: 19.2.17
+        version: 19.3.0
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.2.3(@types/react@19.2.17)
+        version: 19.2.3(@types/react@19.3.0)
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
@@ -704,8 +704,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.17':
-    resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==}
+  '@types/react@19.3.0':
+    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
 
   '@typescript-eslint/eslint-plugin@8.54.0':
     resolution: {integrity: sha512-hAAP5io/7csFStuOmR782YmTthKBJ9ND3WVL60hcOjvtGFb+HJxH4O5huAcmcZ9v9G8P+JETiZ/G1B8MALnWZQ==}
@@ -954,6 +954,7 @@ packages:
   eslint@9.39.2:
     resolution: {integrity: sha512-LEyamqS7W5HB3ujJyvi0HQK/dtVINZvd5mAAp9eT5S/ujByGjiZLCzPcHVzuXbpJDJF/cxwHlfceVUDZ2lnSTw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -1287,8 +1288,8 @@ packages:
     peerDependencies:
       react: ^19.2.4
 
-  react@19.2.7:
-    resolution: {integrity: sha512-HNe9WslTbXmFK8o8cmwgAeJFSBvt1bPdHCVKtaaV+WlAN36mpT4hcRpwbf3fY56ar2oIXzsBpOAiIRHAdY0OlQ==}
+  react@19.3.0:
+    resolution: {integrity: sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==}
     engines: {node: '>=0.10.0'}
 
   readdirp@4.1.2:
@@ -1974,11 +1975,11 @@ snapshots:
     dependencies:
       undici-types: 8.3.0
 
-  '@types/react-dom@19.2.3(@types/react@19.2.17)':
+  '@types/react-dom@19.2.3(@types/react@19.3.0)':
     dependencies:
-      '@types/react': 19.2.17
+      '@types/react': 19.3.0
 
-  '@types/react@19.2.17':
+  '@types/react@19.3.0':
     dependencies:
       csstype: 3.2.3
 
@@ -2488,16 +2489,16 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@16.2.10(@playwright/test@1.61.1)(react-dom@19.2.4(react@19.2.7))(react@19.2.7):
+  next@16.2.10(@playwright/test@1.61.1)(react-dom@19.2.4(react@19.3.0))(react@19.3.0):
     dependencies:
       '@next/env': 16.2.10
       '@swc/helpers': 0.5.15
       baseline-browser-mapping: 2.10.42
       caniuse-lite: 1.0.30001803
       postcss: 8.5.16
-      react: 19.2.7
-      react-dom: 19.2.4(react@19.2.7)
-      styled-jsx: 5.1.6(react@19.2.7)
+      react: 19.3.0
+      react-dom: 19.2.4(react@19.3.0)
+      styled-jsx: 5.1.6(react@19.3.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.2.10
       '@next/swc-darwin-x64': 16.2.10
@@ -2582,12 +2583,12 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  react-dom@19.2.4(react@19.2.7):
+  react-dom@19.2.4(react@19.3.0):
     dependencies:
-      react: 19.2.7
+      react: 19.3.0
       scheduler: 0.27.0
 
-  react@19.2.7: {}
+  react@19.3.0: {}
 
   readdirp@4.1.2: {}
 
@@ -2682,10 +2683,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.6(react@19.2.7):
+  styled-jsx@5.1.6(react@19.3.0):
     dependencies:
       client-only: 0.0.1
-      react: 19.2.7
+      react: 19.3.0
 
   sucrase@3.35.1:
     dependencies:
