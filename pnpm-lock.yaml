@@ -29,7 +29,7 @@ importers:
         version: 9.39.4
       '@playwright/test':
         specifier: ^1.49.0
-        version: 1.61.1
+        version: 1.65.0
       '@types/node':
         specifier: ^22.10.0
         version: 22.19.7
@@ -41,7 +41,7 @@ importers:
         version: 9.39.2
       next:
         specifier: ^16.1.0
-        version: 16.3.8(@playwright/test@1.61.1)(@types/node@22.19.7)(react-dom@19.2.4(react@19.2.7))(react@19.2.7)
+        version: 16.3.8(@playwright/test@1.65.0)(@types/node@22.19.7)(react-dom@19.2.4(react@19.2.7))(react@19.2.7)
       prettier:
         specifier: ^3.4.0
         version: 3.9.5
@@ -68,7 +68,7 @@ importers:
         version: link:../..
       next:
         specifier: ^16.2.10
-        version: 16.3.8(@playwright/test@1.61.1)(@types/node@26.1.1)(react-dom@19.2.4(react@19.2.7))(react@19.2.7)
+        version: 16.3.8(@playwright/test@1.65.0)(@types/node@26.6.6)(react-dom@19.2.4(react@19.2.7))(react@19.2.7)
       react:
         specifier: ^19.2.7
         version: 19.2.7
@@ -77,8 +77,8 @@ importers:
         version: 19.2.4(react@19.2.7)
     devDependencies:
       '@types/node':
-        specifier: ^26.1.1
-        version: 26.1.1
+        specifier: ^26.6.4
+        version: 26.6.6
       '@types/react':
         specifier: ^19.2.17
         version: 19.2.17
@@ -551,9 +551,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@playwright/test@1.61.1':
-    resolution: {integrity: sha512-8nKv6+0RJSL9FE4jYOEGXnPeM/Hg12qZpmqzZjRh3qM0Y7c3z1mrOTfFLids72RDQYVh9WpLEfR5WdpNX4fkig==}
-    engines: {node: '>=18'}
+  '@playwright/test@1.65.0':
+    resolution: {integrity: sha512-iGURLGuKDLakSEl7Pgfv8h7f+XLT+V861Wfhz0zlEl5nyFuKUopdkFBPKqTllTUp06aOwPuH8iuUEb3yp3MpbQ==}
+    engines: {node: '>=20'}
     hasBin: true
 
   '@rollup/rollup-android-arm-eabi@4.62.2':
@@ -705,8 +705,8 @@ packages:
   '@types/node@22.19.7':
     resolution: {integrity: sha512-MciR4AKGHWl7xwxkBa6xUGxQJ4VBOmPTF7sL+iGzuahOFaO0jHCsuEfS80pan1ef4gWId1oWOweIhrDEYLuaOw==}
 
-  '@types/node@26.1.1':
-    resolution: {integrity: sha512-nxAkRSVkN1Y0JC1W8ky/fTfkGsMmcrRsbx+3XoZE+rMOX71kLYTV7fLXpqud1GpbpP5TuffXFqfX7fH2GgZREw==}
+  '@types/node@26.6.6':
+    resolution: {integrity: sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -1034,11 +1034,6 @@ packages:
   flatted@3.4.2:
     resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
 
-  fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
@@ -1252,14 +1247,14 @@ packages:
   pkg-types@1.3.1:
     resolution: {integrity: sha512-/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==}
 
-  playwright-core@1.61.1:
-    resolution: {integrity: sha512-h7Qlt6m4REp25qvIdvbDtVmD4LqVXfpRxhORv9L0jzETM05p4fuPJ3dKyuSXQxDSbXnmS79HAgi9589lGSpLkg==}
-    engines: {node: '>=18'}
+  playwright-core@1.65.0:
+    resolution: {integrity: sha512-vNSKgH6YqtN7cdT/L334zo0a+YwkrpicyrHJlWWPIm/Q+Nn2SWInil01oT0mbu96U4GgoRtCYQD9CzJQgju+lA==}
+    engines: {node: '>=20'}
     hasBin: true
 
-  playwright@1.61.1:
-    resolution: {integrity: sha512-DWnY5o3YbLWK4GovuAVwpqL+1VwGNdUGrRr++8j8PtQQzvAVZUIMjKQ90fY689sEJZJBbZVw1rXaOKSTitkzPQ==}
-    engines: {node: '>=18'}
+  playwright@1.65.0:
+    resolution: {integrity: sha512-F3AMWcR44qMBt4kq+6Kb6mX7bjGXshktKFOPULd7reED6ZJWevjbNRqysP7q+AATE9kdPEZBibex1BYsvpVoeA==}
+    engines: {node: '>=20'}
     hasBin: true
 
   postcss-load-config@6.0.1:
@@ -1486,8 +1481,8 @@ packages:
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
-  undici-types@8.3.0:
-    resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
@@ -1906,9 +1901,9 @@ snapshots:
   '@next/swc-win32-x64-msvc@16.3.8':
     optional: true
 
-  '@playwright/test@1.61.1':
+  '@playwright/test@1.65.0':
     dependencies:
-      playwright: 1.61.1
+      playwright: 1.65.0
 
   '@rollup/rollup-android-arm-eabi@4.62.2':
     optional: true
@@ -2008,9 +2003,9 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@26.1.1':
+  '@types/node@26.6.6':
     dependencies:
-      undici-types: 8.3.0
+      undici-types: 8.9.0
 
   '@types/react-dom@19.2.3(@types/react@19.2.17)':
     dependencies:
@@ -2402,9 +2397,6 @@ snapshots:
 
   flatted@3.4.2: {}
 
-  fsevents@2.3.2:
-    optional: true
-
   fsevents@2.3.3:
     optional: true
 
@@ -2528,7 +2520,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@16.3.8(@playwright/test@1.61.1)(@types/node@22.19.7)(react-dom@19.2.4(react@19.2.7))(react@19.2.7):
+  next@16.3.8(@playwright/test@1.65.0)(@types/node@22.19.7)(react-dom@19.2.4(react@19.2.7))(react@19.2.7):
     dependencies:
       '@next/env': 16.3.8
       '@swc/helpers': 0.5.23
@@ -2547,14 +2539,14 @@ snapshots:
       '@next/swc-linux-x64-musl': 16.3.8
       '@next/swc-win32-arm64-msvc': 16.3.8
       '@next/swc-win32-x64-msvc': 16.3.8
-      '@playwright/test': 1.61.1
+      '@playwright/test': 1.65.0
       sharp: 0.35.5(@types/node@22.19.7)
     transitivePeerDependencies:
       - '@babel/core'
       - '@types/node'
       - babel-plugin-macros
 
-  next@16.3.8(@playwright/test@1.61.1)(@types/node@26.1.1)(react-dom@19.2.4(react@19.2.7))(react@19.2.7):
+  next@16.3.8(@playwright/test@1.65.0)(@types/node@26.6.6)(react-dom@19.2.4(react@19.2.7))(react@19.2.7):
     dependencies:
       '@next/env': 16.3.8
       '@swc/helpers': 0.5.23
@@ -2573,8 +2565,8 @@ snapshots:
       '@next/swc-linux-x64-musl': 16.3.8
       '@next/swc-win32-arm64-msvc': 16.3.8
       '@next/swc-win32-x64-msvc': 16.3.8
-      '@playwright/test': 1.61.1
-      sharp: 0.35.5(@types/node@26.1.1)
+      '@playwright/test': 1.65.0
+      sharp: 0.35.5(@types/node@26.6.6)
     transitivePeerDependencies:
       - '@babel/core'
       - '@types/node'
@@ -2623,13 +2615,11 @@ snapshots:
       mlly: 1.8.0
       pathe: 2.0.3
 
-  playwright-core@1.61.1: {}
+  playwright-core@1.65.0: {}
 
-  playwright@1.61.1:
+  playwright@1.65.0:
     dependencies:
-      playwright-core: 1.61.1
-    optionalDependencies:
-      fsevents: 2.3.2
+      playwright-core: 1.65.0
 
   postcss-load-config@6.0.1(postcss@8.5.23):
     dependencies:
@@ -2739,7 +2729,7 @@ snapshots:
       '@types/node': 22.19.7
     optional: true
 
-  sharp@0.35.5(@types/node@26.1.1):
+  sharp@0.35.5(@types/node@26.6.6):
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
@@ -2770,7 +2760,7 @@ snapshots:
       '@img/sharp-win32-arm64': 0.35.5
       '@img/sharp-win32-ia32': 0.35.5
       '@img/sharp-win32-x64': 0.35.5
-      '@types/node': 26.1.1
+      '@types/node': 26.6.6
     optional: true
 
   shebang-command@2.0.0:
@@ -2892,7 +2882,7 @@ snapshots:
 
   undici-types@6.21.0: {}
 
-  undici-types@8.3.0: {}
+  undici-types@8.9.0: {}
 
   uri-js@4.4.1:
     dependencies:
